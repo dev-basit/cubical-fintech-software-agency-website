@@ -21,6 +21,8 @@
   -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
       rel="stylesheet"
@@ -37,7 +39,7 @@
         <div class="overlay" data-overlay></div>
 
         <a href="#">
-          <img src="./assets/images/cubical-fintech.svg" alt="" style="height: 10rem; width: 10rem" />
+          <img src="./assets/images/cubical-fintech1.png" alt="" style="height: 12rem; width: 15rem" />
           <!-- <h1 class="logo">Cubical FinTech</h1> -->
         </a>
 
@@ -95,7 +97,7 @@
         - #HERO
       -->
 
-        <section class="hero" id="home">
+        <section class="hero animate__animated" id="home" data-aos="zoom-in-up">
           <div class="container">
             <div class="hero-content">
               <p class="hero-subtitle">We Are here to build your systems.</p>
@@ -128,7 +130,7 @@
         - #ABOUT
       -->
 
-        <section class="section about" id="about">
+        <section class="section about" id="about" data-aos="fade-up">
           <div class="container">
             <figure class="about-banner">
               <img
@@ -183,7 +185,7 @@
         - #SERVICE
       -->
 
-        <section class="section service" id="services">
+        <section class="section service" id="services" data-aos="fade-right">
           <div class="container">
             <h2 class="h2 section-title underline">Our Speciallization</h2>
 
@@ -256,7 +258,7 @@
         - #FEATURES
       -->
 
-        <section class="section features" id="features">
+        <section class="section features" id="features" data-aos="fade-left">
           <div class="container">
             <h2 class="h2 section-title underline">Our Features</h2>
 
@@ -354,7 +356,7 @@
         - #BLOG
       -->
 
-        <section class="section blog" id="blog">
+        <section class="section blog" id="blog" data-aos="fade-up">
           <div class="container">
             <h2 class="h2 section-title underline">Our Clients</h2>
 
@@ -555,7 +557,7 @@
     - #FOOTER
   -->
 
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up">
       <div class="footer-top section">
         <div class="container">
           <div class="footer-brand">
@@ -679,7 +681,7 @@
 
               <div>
                 <a href="mailto:info@cubicalfintech.com" class="footer-item-link"
-                  >info@cubicalfinetech.com</a
+                  >info@cubicalfintech.com</a
                 >
               </div>
             </li>
@@ -720,5 +722,9 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
